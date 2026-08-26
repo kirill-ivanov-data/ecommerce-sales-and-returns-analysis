@@ -1,4 +1,4 @@
-`orders`:
+orders:
 
 | Column       | Definition                           | Data type          | Comments                                          |
 | ------------ | ------------------------------------ | ------------------ | ------------------------------------------------- |
@@ -13,3 +13,28 @@
 | `discount`   | Discount applied for the Line Item   | `DOUBLE PRECISION` |                                                   |
 | `profit`     | Total Profit earned on the Line Item | `DOUBLE PRECISION` |                                                   |
 
+
+returned_orders:
+
+| Column     | Definition                                | Data type |
+| ---------- | ----------------------------------------- | --------- |
+| `returned` | Yes values for Order / Line Item Returned | `TEXT`    |
+| `order_id` | Identifier for each order in table        | `TEXT`    |
+| `market`   | Market order_id belongs to                | `TEXT`    |
+
+
+people:
+
+| Column   | Definition                              | Data type |
+| -------- | --------------------------------------- | --------- |
+| `person` | Name of Salesperson credited with Order | `TEXT`    |
+| `region` | Region Salesperson in operating in      | `TEXT`    |
+
+
+products:
+| Column         | Definition                        | Data type |
+| -------------- | --------------------------------- | --------- |
+| `product_id`   | Unique Identifier for the Product | `TEXT`    |
+| `category`     | Category Product belongs to       | `TEXT`    |
+| `sub_category` | Sub Category Product belongs to   | `TEXT`    |
+| `product_name` | Detailed Name of the Product      | `TEXT`    |
