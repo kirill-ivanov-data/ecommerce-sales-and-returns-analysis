@@ -17,3 +17,8 @@ This project involves analyzing online store data to identify the most profitabl
 * `02_top_products_ranking.sql` - ranking of the top 5 products in each category by sales volume. 
 * `03_return_rates_analysis.sql` - calculation of return rates by product and category.
 * `data_dictionary.md` - description of the source database table structures.
+
+## Conclusions
+1. The leading sales category is **Technology** (driven largely by smartphones), while the lowest-selling category is **Office Supplies**.
+2. The **Tables** subcategory shows a critical return trend: it has the highest relative return rate across all categories, with 100% of products being returned. This requires immediate investigation into potential causes, such as product quality issues or damage during delivery.
+3. **Office Supplies** also demand in-depth analysis, as they account for the highest absolute volume of returns overall.
