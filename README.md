@@ -1,7 +1,7 @@
 # Ecommerce sales and returns analysis
 [Читати українською](README_ua.md)
 Online store sales analysis, missing data recovery, and return metrics calculation (SQL + Tableau)
-##### Link to the dashboard: https://public.tableau.com/views/Salesandreturnsanalysis_dashboard/Salesandreturnsanalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+#### Link to the dashboard: https://public.tableau.com/views/Salesandreturnsanalysis_dashboard/Salesandreturnsanalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Description:
 This project involves analyzing online store data to identify the most profitable products in each category and investigate the reasons for order returns. Data processing and cleaning were primarily performed using SQL, while key metrics were visualized in Tableau.
