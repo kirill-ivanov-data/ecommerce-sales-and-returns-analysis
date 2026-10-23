@@ -1,4 +1,5 @@
 # Аналіз продажів та повернень в електронній комерції
+[Read in English](README.md)
 Аналіз продажів інтернет-магазину, відновлення пропущених даних та розрахунок метрик повернень (SQL + Tableau).
 
 **Посилання на дашборд:** https://public.tableau.com/views/Salesandreturnsanalysis_dashboard/Salesandreturnsanalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
